@@ -17,28 +17,28 @@ Bienvenue dans le projet ToDoApp! Ce projet a été créé dans le cadre de mon 
 ## Installation
 
 1. Clonez le dépôt:
-    ```bash
-    git clone https://github.com/votre-utilisateur/ToDoApp.git
-    ```
+   ```bash
+   git clone https://github.com/votre-utilisateur/ToDoApp.git
+   ```
 2. Accédez au répertoire du projet:
-    ```bash
-    cd ToDoApp
-    ```
+   ```bash
+   cd ToDoApp
+   ```
 
 ## Utilisation
 
 1. Ajoutez une nouvelle tâche:
-    ```bash
-    ./todo add "Votre tâche"
-    ```
+   ```bash
+   ./todo add "Votre tâche"
+   ```
 2. Listez toutes les tâches:
-    ```bash
-    ./todo list
-    ```
+   ```bash
+   ./todo list
+   ```
 3. Marquez une tâche comme complète:
-    ```bash
-    ./todo complete [numéro de la tâche]
-    ```
+   ```bash
+   ./todo complete [numéro de la tâche]
+   ```
 
 ## Contribuer
 
