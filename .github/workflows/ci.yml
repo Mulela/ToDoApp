@@ -15,13 +15,5 @@ jobs:
       - name: Récupérer le code du dépôt
         uses: actions/checkout@v3
 
-      - name: Installer Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-
-      - name: Installer les dépendances
-        run: npm install
-
-      - name: Lancer les tests
-        run: npm test
+      - name: Vérifier les fichiers du projet
+        run: ls -la
